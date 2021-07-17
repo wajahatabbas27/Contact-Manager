@@ -11,7 +11,7 @@
     "email": "wajahatabbas27@gmail.com",
     "phone number": "03472923515"
   },
-  "license": "MIT",
+  "license": "MIT", 
   "description": "Contact Manager App",
   "dependencies": {
     "bcryptjs": "^2.4.3",

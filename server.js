@@ -6,6 +6,10 @@ const app = express();
 //connect to MongoDB Atlas bs call kreinge function ko
 connectDB();
 
+// Init Middleware - middleware bna rhe hain
+app.use(express.json({ extended: false }));
+
+
 //Defining Routes here
 app.use('/api/users', require('./routes/users'));
 app.use('/api/auth', require('./routes/auth'));
